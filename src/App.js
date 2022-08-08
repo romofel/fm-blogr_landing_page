@@ -40,6 +40,23 @@ function App() {
           in full control.
         </p>
       </section>
+
+      <section id="state-art">
+        <div>
+          <img src="" alt="" />
+        </div>
+        <h1>State of the Art Infrastructure</h1>
+        <p>
+          With reliability and speed in mind, worldwide data centers provide the
+          backbone for ultra-fast connectivity. This ensures your site will load
+          instantly, no matter where your readers are, keeping your site
+          competitive.
+        </p>
+      </section>
+
+      <section id="features"></section>
+
+      <footer></footer>
     </div>
   );
 }
