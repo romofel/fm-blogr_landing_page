@@ -56,7 +56,38 @@ function App() {
 
       <section id="features"></section>
 
-      <footer></footer>
+      <footer>
+        <div>Blogr</div>
+        <ul>
+          <li>
+            <span>Product</span>
+            <ul>
+              <li>Overview</li>
+              <li>Pricing</li>
+              <li>Marketplace</li>
+              <li>Features</li>
+              <li>Integrations</li>
+            </ul>
+          </li>
+          <li>
+            <span>Company</span>
+            <ul>
+              <li>About</li>
+              <li>Team</li>
+              <li>Blog</li>
+              <li>Careers</li>
+            </ul>
+          </li>
+          <li>
+            <span>Connect</span>
+            <ul>
+              <li>Contact</li>
+              <li>Newsletter</li>
+              <li>LinkedIn</li>
+            </ul>
+          </li>
+        </ul>
+      </footer>
     </div>
   );
 }
