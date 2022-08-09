@@ -18,10 +18,6 @@ function HoverMenuItem({ title, children }) {
 }
 
 function HoverMenu() {
-  const [isOpen, setIsOpen] = useState(false);
-
-  if (!isOpen) return;
-
   return (
     <div class="hover-menu">
       <ul>
@@ -65,6 +61,8 @@ function HoverSubMenu({ items }) {
 }
 
 function App() {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(true);
+
   return (
     <div>
       <div className="landing-bg">
@@ -73,9 +71,9 @@ function App() {
             <div className="logo-container">
               <img src={logo} alt="company logo" />
             </div>
-            <Hamburger color="white" />
+            <Hamburger color="white" onToggle={toggled => setIsMobileMenuOpen(toggled)} />
           </div>
-          <HoverMenu />
+          {isMobileMenuOpen && <HoverMenu />}
         </nav>
 
         <div className="landing-content-container">
