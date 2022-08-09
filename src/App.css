@@ -127,6 +127,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+* {
+  box-sizing: border-box;
+}
 
 .landing-bg {
   background-image: linear-gradient(to right bottom, #ff8f71, #ff3e55);
@@ -146,4 +149,17 @@ nav {
 
 .landing-content-container {
   margin-top: 3.25rem;
+}
+
+.landing-title {
+  font-family: "Overpass", sans-serif;
+  font-weight: 600;
+  font-size: 2.25rem;
+  color: white;
+  text-align: center;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.landing-content {
 }
