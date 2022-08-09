@@ -141,6 +141,15 @@ nav {
   position: relative;
 }
 
+.hover-menu {
+  position: absolute;
+  left: 1.5rem;
+  background-color: white;
+  width: 20.25rem;
+  height: 511px;
+  border-radius: 5px;
+}
+
 .nav-bar {
   display: flex;
   justify-content: space-between;
