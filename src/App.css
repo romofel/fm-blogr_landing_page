@@ -354,6 +354,8 @@ section#future {
 section#state-art {
   margin-top: 6.25rem;
   background-image: linear-gradient(to right bottom, rgba(45 46 64 / 100%), rgba(63 65 100 / 100%));
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
 }
 
 .state-art-hero > img {
