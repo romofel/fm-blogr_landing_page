@@ -315,6 +315,10 @@ section#future {
   text-align: center;
 }
 
+.future-hero {
+  margin-top: 2.375rem;
+}
+
 .future-hero > img {
   width: 100%;
 }
