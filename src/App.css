@@ -322,3 +322,17 @@ section#future {
 .future-hero > img {
   width: 100%;
 }
+
+.future-content {
+  margin-top: 2.875rem;
+}
+
+.future-content-item > h2 {
+  font-family: 'Overpass', sans-serif;
+  font-weight: 600;
+  font-size: 1.75rem;
+  color: #1f3e5a;
+  text-align: center;
+  width: 318px;
+  line-height: 1.14285714;
+}
