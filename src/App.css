@@ -186,7 +186,17 @@ nav {
 }
 
 .hover-sub-menu {
-  background-color: red;
+  background-color: rgba(45 46 64 / 8%);
+  border-radius: 5px;
+  width: 100%;
+  text-align: center;
+  color: rgba(31 62 90 / 75%);
+  padding: 18px;
+  margin-top: 1.5rem;
+}
+
+.hover-sub-menu-item {
+  margin-top: 12px;
 }
 
 .separator {
