@@ -197,6 +197,18 @@ nav {
   border: none;
 }
 
+.hover-login {
+  margin-top: 1.5rem;
+  color: #1f3e5a;
+  background-color: transparent;
+}
+
+.hover-signup {
+  margin-top: 1rem;
+  color: white;
+  background-image: linear-gradient(to right bottom, #ff8f71, #ff3e55);
+}
+
 .nav-bar {
   display: flex;
   justify-content: space-between;
