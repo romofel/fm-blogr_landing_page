@@ -4,6 +4,7 @@ import { useState } from "react";
 import logo from "./assets/logo.svg";
 import iconArrowDark from "./assets/icon-arrow-dark.svg";
 import illustrationEditorMobile from "./assets/illustration-editor-mobile.svg";
+import illustrationPhones from "./assets/illustration-phones.svg";
 
 function HoverMenuItem({ title, children }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -135,7 +136,7 @@ function SectionState() {
   return (
     <section id="state-art">
       <div>
-        <img src="" alt="" />
+        <img src={illustrationPhones} alt="" />
       </div>
       <h1>State of the Art Infrastructure</h1>
       <p>
