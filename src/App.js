@@ -60,6 +60,39 @@ function HoverSubMenu({ items }) {
   );
 }
 
+function SectionLanding() {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+  return (
+      <div className="landing-bg">
+        <nav>
+          <div className="nav-bar">
+            <div className="logo-container">
+              <img src={logo} alt="company logo" />
+            </div>
+            <Hamburger
+              color="white"
+              onToggle={(toggled) => setIsMobileMenuOpen(toggled)}
+            />
+          </div>
+          {isMobileMenuOpen && <HoverMenu />}
+        </nav>
+
+        <div className="landing-content-container">
+          <h1 className="landing-title">A modern publishing platform</h1>
+          <p className="landing-content">
+            Grow your audience and build your online brand
+          </p>
+
+          <div className="ctas">
+            <button className="cta-start">Start for Free</button>
+            <button className="cta-learn">Learn More</button>
+          </div>
+        </div>
+      </div>
+  );
+}
+
 function SectionFuture() {
   return (
     <section id="future">
@@ -172,36 +205,10 @@ function Footer() {
 }
 
 function App() {
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(true);
 
   return (
     <div>
-      <div className="landing-bg">
-        <nav>
-          <div className="nav-bar">
-            <div className="logo-container">
-              <img src={logo} alt="company logo" />
-            </div>
-            <Hamburger
-              color="white"
-              onToggle={(toggled) => setIsMobileMenuOpen(toggled)}
-            />
-          </div>
-          {isMobileMenuOpen && <HoverMenu />}
-        </nav>
-
-        <div className="landing-content-container">
-          <h1 className="landing-title">A modern publishing platform</h1>
-          <p className="landing-content">
-            Grow your audience and build your online brand
-          </p>
-
-          <div className="ctas">
-            <button className="cta-start">Start for Free</button>
-            <button className="cta-learn">Learn More</button>
-          </div>
-        </div>
-      </div>
+      <SectionLanding />
 
       <SectionFuture />
 
