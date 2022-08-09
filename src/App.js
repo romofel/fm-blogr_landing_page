@@ -136,7 +136,7 @@ function SectionState() {
   return (
     <section id="state-art">
       <div>
-        <img src={illustrationPhones} alt="" />
+        <img src={illustrationPhones} alt="phone illustration" />
       </div>
       <h1>State of the Art Infrastructure</h1>
       <p>
