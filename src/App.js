@@ -1,24 +1,45 @@
 import "./App.css";
 import Hamburger from "hamburger-react";
-import logo from './assets/logo.svg';
+import logo from "./assets/logo.svg";
+import iconArrowDark from './assets/icon-arrow-dark.svg'; 
+
+function HoverMenu() {
+  return (
+    <div class="hover-menu">
+      <ul>
+        <li>
+          <span>Product</span> <img src={iconArrowDark} />
+        </li>
+        <li>
+          <span>Company</span> <img src={iconArrowDark} />
+        </li>
+        <li>
+          <span>Connect</span> <img src={iconArrowDark} />
+        </li>
+      </ul>
+    </div>
+  );
+}
 
 function App() {
   return (
     <div>
-
       <div className="landing-bg">
         <nav>
           <div className="nav-bar">
             <div className="logo-container">
-            <img src={logo} alt="company logo" />
+              <img src={logo} alt="company logo" />
             </div>
-          <Hamburger color="white" />
+            <Hamburger color="white" />
           </div>
+          <HoverMenu />
         </nav>
 
         <div className="landing-content-container">
           <h1 className="landing-title">A modern publishing platform</h1>
-          <p className="landing-content">Grow your audience and build your online brand</p>
+          <p className="landing-content">
+            Grow your audience and build your online brand
+          </p>
 
           <div className="ctas">
             <button className="cta-start">Start for Free</button>
