@@ -21,8 +21,8 @@ function HoverMenu() {
       <div className="separator"></div>
 
       <div className="hover-ctas">
-        <button>Login</button>
-        <button>Sign Up</button>
+        <button className="hover-login">Login</button>
+        <button className="hover-signup">Sign Up</button>
       </div>
     </div>
   );
