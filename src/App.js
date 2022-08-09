@@ -135,7 +135,7 @@ function SectionFuture() {
 function SectionState() {
   return (
     <section id="state-art">
-      <div>
+      <div className="state-art-hero">
         <img src={illustrationPhones} alt="phone illustration" />
       </div>
       <h1>State of the Art Infrastructure</h1>
