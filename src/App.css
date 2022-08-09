@@ -143,3 +143,7 @@ nav {
   justify-content: center;
   align-items: center;
 }
+
+.landing-content-container {
+  margin-top: 3.25rem;
+}
