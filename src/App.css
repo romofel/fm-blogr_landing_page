@@ -181,6 +181,22 @@ nav {
   width: 100%;
 }
 
+.hover-ctas {
+  display: flex;
+  flex-direction: column;
+}
+
+.hover-login,
+.hover-signup {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  height: 3rem;
+  width: 137px;
+  border-radius: 1.75rem;
+  border: none;
+}
+
 .nav-bar {
   display: flex;
   justify-content: space-between;
