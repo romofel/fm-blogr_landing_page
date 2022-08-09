@@ -1,20 +1,23 @@
 import "./App.css";
 import Hamburger from "hamburger-react";
 import logo from "./assets/logo.svg";
-import iconArrowDark from './assets/icon-arrow-dark.svg'; 
+import iconArrowDark from "./assets/icon-arrow-dark.svg";
 
 function HoverMenu() {
   return (
     <div class="hover-menu">
       <ul>
         <li className="hover-menu-item">
-          <span>Product</span> <img className="hover-arrow" src={iconArrowDark} alt="down arrow" />
+          <span>Product</span>{" "}
+          <img className="hover-arrow" src={iconArrowDark} alt="down arrow" />
         </li>
         <li className="hover-menu-item">
-          <span>Company</span> <img className="hover-arrow" src={iconArrowDark} alt="down arrow" />
+          <span>Company</span>{" "}
+          <img className="hover-arrow" src={iconArrowDark} alt="down arrow" />
         </li>
         <li className="hover-menu-item">
-          <span>Connect</span> <img className="hover-arrow" src={iconArrowDark} alt="down arrow" />
+          <span>Connect</span>{" "}
+          <img className="hover-arrow" src={iconArrowDark} alt="down arrow" />
         </li>
       </ul>
 
@@ -30,9 +33,11 @@ function HoverMenu() {
 
 function HoverSubMenu({ items }) {
   return (
-  <ul>
-    { items.map(item => <li>item</li>) }
-  </ul>
+    <ul>
+      {items.map((item) => (
+        <li>item</li>
+      ))}
+    </ul>
   );
 }
 
