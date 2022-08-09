@@ -8,8 +8,19 @@ function HoverMenu() {
     <div class="hover-menu">
       <ul>
         <li className="hover-menu-item">
-          <span>Product</span>{" "}
-          <img className="hover-arrow" src={iconArrowDark} alt="down arrow" />
+          <div className="hover-menu-title">
+            <span>Product</span>{" "}
+            <img className="hover-arrow" src={iconArrowDark} alt="down arrow" />
+          </div>
+          <HoverSubMenu
+            items={[
+              "Overview",
+              "Pricing",
+              "Marketplace",
+              "Features",
+              "Integrations",
+            ]}
+          />
         </li>
         <li className="hover-menu-item">
           <span>Company</span>{" "}
@@ -33,7 +44,7 @@ function HoverMenu() {
 
 function HoverSubMenu({ items }) {
   return (
-    <ul>
+    <ul className="hover-sub-menu">
       {items.map((item) => (
         <li>item</li>
       ))}

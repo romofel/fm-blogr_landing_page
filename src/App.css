@@ -154,7 +154,7 @@ nav {
   box-shadow: 0 20px 40px rgba(0 0 0 / 24.34%);
   padding-top: 1.5rem;
   padding: 2rem 1.5rem;
-  font-family: 'Overpass', sans-serif;
+  font-family: "Overpass", sans-serif;
   font-size: 1.125rem;
   font-weight: 600;
   color: #1f3e5a;
@@ -162,6 +162,7 @@ nav {
 
 .hover-menu-item {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -170,8 +171,18 @@ nav {
   margin-top: 1.5rem;
 }
 
+.hover-menu-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .hover-arrow {
-  margin-left: .5rem;
+  margin-left: 0.5rem;
+}
+
+.hover-sub-menu {
+  background-color: red;
 }
 
 .separator {
@@ -188,7 +199,7 @@ nav {
 
 .hover-login,
 .hover-signup {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-size: 1rem;
   font-weight: 700;
   height: 3rem;
@@ -237,7 +248,7 @@ nav {
 }
 
 .landing-content {
-  font-family: 'Overpass', sans-serif;
+  font-family: "Overpass", sans-serif;
   font-weight: 300;
   font-size: 1.125rem;
   color: white;
@@ -259,7 +270,7 @@ nav {
   border-radius: 1.75rem;
 }
 
-.cta-start { 
+.cta-start {
   background-color: white;
   color: #ff505c;
   border: none;
