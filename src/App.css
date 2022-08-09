@@ -300,3 +300,9 @@ nav {
   border: 1px solid white;
   margin-left: 1rem;
 }
+
+section#future {
+  margin-top: 6.25rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
