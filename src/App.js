@@ -113,13 +113,15 @@ function SectionFuture() {
             blag.
           </p>
         </div>
-        <h2>Robust content management</h2>
-        <p>
-          Flexible content management enables users to easily move through
-          posts. Increase the usability of your blog by adding customized
-          categories, sections, format, or flow. With this functionality, you're
-          in full control.
-        </p>
+        <div className="future-content-item">
+          <h2>Robust content management</h2>
+          <p>
+            Flexible content management enables users to easily move through
+            posts. Increase the usability of your blog by adding customized
+            categories, sections, format, or flow. With this functionality,
+            you're in full control.
+          </p>
+        </div>
       </div>
     </section>
   );
