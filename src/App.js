@@ -96,8 +96,8 @@ function SectionLanding() {
 function SectionFuture() {
   return (
     <section id="future">
-      <h1>Designed for the future</h1>
-      <div>
+      <h1 className="future-heading">Designed for the future</h1>
+      <div className="future-hero">
         <img src="" alt="" />
       </div>
       <h2>Introducing an extensible editor</h2>
