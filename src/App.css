@@ -165,6 +165,10 @@ nav {
   align-items: center;
 }
 
+.hover-menu-item:not(:first-of-type) {
+  margin-top: 1.5rem;
+}
+
 .hover-arrow {
   margin-left: .5rem;
 }
