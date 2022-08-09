@@ -3,22 +3,14 @@ import Hamburger from "hamburger-react";
 import logo from "./assets/logo.svg";
 import iconArrowDark from "./assets/icon-arrow-dark.svg";
 
-function HoverMenuItem() {
+function HoverMenuItem({ children }) {
   return (
     <li className="hover-menu-item">
       <div className="hover-menu-title">
         <span>Product</span>{" "}
         <img className="hover-arrow" src={iconArrowDark} alt="down arrow" />
       </div>
-      <HoverSubMenu
-        items={[
-          "Overview",
-          "Pricing",
-          "Marketplace",
-          "Features",
-          "Integrations",
-        ]}
-      />
+      { children }
     </li>
   );
 }
@@ -27,7 +19,17 @@ function HoverMenu() {
   return (
     <div class="hover-menu">
       <ul>
-        <HoverMenuItem />
+        <HoverMenuItem>
+          <HoverSubMenu
+            items={[
+              "Overview",
+              "Pricing",
+              "Marketplace",
+              "Features",
+              "Integrations",
+            ]}
+          />
+        </HoverMenuItem>
         <li className="hover-menu-item">
           <div className="hover-menu-title">
             <span>Company</span>{" "}
