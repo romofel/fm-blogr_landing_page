@@ -140,8 +140,8 @@ function SectionState() {
         <img className="state-art-hero-fg" src={illustrationPhones} alt="phone illustration" />
         <img className="state-art-hero-bg" src={bgPatternCircles} alt="pattern circles" />
       </div>
-      <h1>State of the Art Infrastructure</h1>
-      <p>
+      <h1 className="state-art-heading">State of the Art Infrastructure</h1>
+      <p className="state-art-content">
         With reliability and speed in mind, worldwide data centers provide the
         backbone for ultra-fast connectivity. This ensures your site will load
         instantly, no matter where your readers are, keeping your site
