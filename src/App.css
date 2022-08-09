@@ -362,6 +362,15 @@ section#state-art {
   border-bottom-left-radius: 100px;
 }
 
-.state-art-hero > img {
+.state-art-hero {
+  position: relative;
+}
+
+.state-art-hero-fg {
   width: 100%;
+}
+
+.state-art-hero-bg {
+  width: 100%;
+  display: none;
 }
