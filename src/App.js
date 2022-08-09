@@ -18,6 +18,10 @@ function HoverMenuItem({ title, children }) {
 }
 
 function HoverMenu() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  if (!isOpen) return;
+
   return (
     <div class="hover-menu">
       <ul>
