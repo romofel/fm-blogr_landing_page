@@ -8,11 +8,11 @@ function HoverMenuItem({ title, children }) {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <li className="hover-menu-item">
-      <div className="hover-menu-title">
+      <div className="hover-menu-title" onClick={() => setIsOpen(!isOpen)}>
         <span>{title}</span>{" "}
         <img className="hover-arrow" src={iconArrowDark} alt="down arrow" />
       </div>
-      { isOpen && children}
+      {isOpen && children}
     </li>
   );
 }
