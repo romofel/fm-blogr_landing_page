@@ -350,3 +350,11 @@ section#future {
   color: #4c5862;
   margin-top: 1rem;
 }
+
+section#state-art {
+  margin-top: 6.25rem;
+}
+
+.state-art-hero > img {
+  width: 100%;
+}
