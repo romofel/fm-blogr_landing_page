@@ -27,30 +27,14 @@ function HoverMenu() {
             <span>Company</span>{" "}
             <img className="hover-arrow" src={iconArrowDark} alt="down arrow" />
           </div>
-          <HoverSubMenu
-            items={[
-              "Overview",
-              "Pricing",
-              "Marketplace",
-              "Features",
-              "Integrations",
-            ]}
-          />
+          <HoverSubMenu items={["About", "Team", "Blog", "Careers"]} />
         </li>
         <li className="hover-menu-item">
           <div className="hover-menu-title">
             <span>Connect</span>{" "}
             <img className="hover-arrow" src={iconArrowDark} alt="down arrow" />
           </div>
-          <HoverSubMenu
-            items={[
-              "Overview",
-              "Pricing",
-              "Marketplace",
-              "Features",
-              "Integrations",
-            ]}
-          />
+          <HoverSubMenu items={["Contact", "Newsletter", "LinkedIn"]} />
         </li>
       </ul>
 
