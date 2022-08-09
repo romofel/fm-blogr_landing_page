@@ -1,5 +1,6 @@
 import "./App.css";
 import Hamburger from "hamburger-react";
+import logo from './assets/logo.svg';
 
 function App() {
   return (
@@ -7,7 +8,9 @@ function App() {
 
       <div className="landing-bg">
         <nav>
-          <div>Blogr</div>
+          <div>
+            <img src={logo} alt="company logo" />
+          </div>
           <Hamburger />
         </nav>
 
