@@ -3,6 +3,7 @@ import Hamburger from "hamburger-react";
 import { useState } from "react";
 import logo from "./assets/logo.svg";
 import iconArrowDark from "./assets/icon-arrow-dark.svg";
+import illustrationEditorMobile from "./assets/illustration-editor-mobile.svg";
 
 function HoverMenuItem({ title, children }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -64,32 +65,32 @@ function SectionLanding() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
-      <div className="landing-bg">
-        <nav>
-          <div className="nav-bar">
-            <div className="logo-container">
-              <img src={logo} alt="company logo" />
-            </div>
-            <Hamburger
-              color="white"
-              onToggle={(toggled) => setIsMobileMenuOpen(toggled)}
-            />
+    <div className="landing-bg">
+      <nav>
+        <div className="nav-bar">
+          <div className="logo-container">
+            <img src={logo} alt="company logo" />
           </div>
-          {isMobileMenuOpen && <HoverMenu />}
-        </nav>
+          <Hamburger
+            color="white"
+            onToggle={(toggled) => setIsMobileMenuOpen(toggled)}
+          />
+        </div>
+        {isMobileMenuOpen && <HoverMenu />}
+      </nav>
 
-        <div className="landing-content-container">
-          <h1 className="landing-title">A modern publishing platform</h1>
-          <p className="landing-content">
-            Grow your audience and build your online brand
-          </p>
+      <div className="landing-content-container">
+        <h1 className="landing-title">A modern publishing platform</h1>
+        <p className="landing-content">
+          Grow your audience and build your online brand
+        </p>
 
-          <div className="ctas">
-            <button className="cta-start">Start for Free</button>
-            <button className="cta-learn">Learn More</button>
-          </div>
+        <div className="ctas">
+          <button className="cta-start">Start for Free</button>
+          <button className="cta-learn">Learn More</button>
         </div>
       </div>
+    </div>
   );
 }
 
@@ -98,7 +99,7 @@ function SectionFuture() {
     <section id="future">
       <h1 className="future-heading">Designed for the future</h1>
       <div className="future-hero">
-        <img src="" alt="" />
+        <img src={illustrationEditorMobile} alt="" />
       </div>
       <h2>Introducing an extensible editor</h2>
       <p>
@@ -205,7 +206,6 @@ function Footer() {
 }
 
 function App() {
-
   return (
     <div>
       <SectionLanding />
