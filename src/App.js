@@ -28,6 +28,14 @@ function HoverMenu() {
   );
 }
 
+function HoverSubMenu({ items }) {
+  return (
+  <ul>
+    { items.map(item => <li>item</li>) }
+  </ul>
+  );
+}
+
 function App() {
   return (
     <div>
