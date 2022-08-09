@@ -8,10 +8,12 @@ function App() {
 
       <div className="landing-bg">
         <nav>
-          <div className="logo-container">
+          <div className="nav-bar">
+            <div className="logo-container">
             <img src={logo} alt="company logo" />
-          </div>
+            </div>
           <Hamburger color="white" />
+          </div>
         </nav>
 
         <div className="landing-content-container">
