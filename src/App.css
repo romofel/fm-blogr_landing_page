@@ -314,3 +314,7 @@ section#future {
   color: #1f3e5a;
   text-align: center;
 }
+
+.future-hero > img {
+  width: 100%;
+}
