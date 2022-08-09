@@ -14,13 +14,13 @@ function App() {
           <Hamburger color="white" />
         </nav>
 
-        <div>
-          <h1>A modern publishing platform</h1>
-          <p>Grow your audience and build your online brand</p>
+        <div className="landing-content-container">
+          <h1 className="landing-title">A modern publishing platform</h1>
+          <p className="landing-content">Grow your audience and build your online brand</p>
 
           <div className="ctas">
-            <button>Start for Free</button>
-            <button>Learn More</button>
+            <button className="cta-start">Start for Free</button>
+            <button className="cta-learn">Learn More</button>
           </div>
         </div>
       </div>
