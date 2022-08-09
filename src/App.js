@@ -1,16 +1,18 @@
 import "./App.css";
 import Hamburger from "hamburger-react";
+import { useState } from "react";
 import logo from "./assets/logo.svg";
 import iconArrowDark from "./assets/icon-arrow-dark.svg";
 
 function HoverMenuItem({ title, children }) {
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <li className="hover-menu-item">
       <div className="hover-menu-title">
         <span>{title}</span>{" "}
         <img className="hover-arrow" src={iconArrowDark} alt="down arrow" />
       </div>
-      {children}
+      { isOpen && children}
     </li>
   );
 }
