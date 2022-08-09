@@ -148,6 +148,7 @@ nav {
   width: 20.25rem;
   height: 511px;
   border-radius: 5px;
+  box-shadow: 0 20px 40px rgba(0 0 0 / 24.34%);
 }
 
 .nav-bar {
