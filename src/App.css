@@ -133,6 +133,8 @@ table {
 
 .landing-bg {
   background-image: linear-gradient(to right bottom, #ff8f71, #ff3e55);
+  padding-bottom: 9.75rem;
+  border-bottom-left-radius: 6.25rem;
 }
 
 nav {
