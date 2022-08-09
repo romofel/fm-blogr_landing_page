@@ -159,6 +159,16 @@ nav {
   color: #1f3e5a;
 }
 
+.hover-menu-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hover-arrow {
+  margin-left: .5rem;
+}
+
 .nav-bar {
   display: flex;
   justify-content: space-between;

@@ -7,14 +7,14 @@ function HoverMenu() {
   return (
     <div class="hover-menu">
       <ul>
-        <li>
-          <span>Product</span> <img src={iconArrowDark} alt="down arrow" />
+        <li className="hover-menu-item">
+          <span>Product</span> <img className="hover-arrow" src={iconArrowDark} alt="down arrow" />
         </li>
-        <li>
-          <span>Company</span> <img src={iconArrowDark} alt="down arrow" />
+        <li className="hover-menu-item">
+          <span>Company</span> <img className="hover-arrow" src={iconArrowDark} alt="down arrow" />
         </li>
-        <li>
-          <span>Connect</span> <img src={iconArrowDark} alt="down arrow" />
+        <li className="hover-menu-item">
+          <span>Connect</span> <img className="hover-arrow" src={iconArrowDark} alt="down arrow" />
         </li>
       </ul>
 
