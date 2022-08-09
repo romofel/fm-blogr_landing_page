@@ -160,6 +160,10 @@ nav {
   color: #1f3e5a;
 }
 
+.hover-menu ul {
+  width: 100%;
+}
+
 .hover-menu-item {
   display: flex;
   flex-direction: column;
