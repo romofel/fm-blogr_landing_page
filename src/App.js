@@ -94,6 +94,10 @@ function SectionLanding() {
   );
 }
 
+function FutureContentItem({ children }) {
+  return <div className="future-content-item">{children}</div>;
+}
+
 function SectionFuture() {
   return (
     <section id="future">
@@ -102,7 +106,7 @@ function SectionFuture() {
         <img src={illustrationEditorMobile} alt="" />
       </div>
       <div className="future-content">
-        <div className="future-content-item">
+        <FutureContentItem>
           <h2>Introducing an extensible editor</h2>
           <p>
             Blogr features an exceedingly intuitive interface which lets you
@@ -112,8 +116,8 @@ function SectionFuture() {
             provide easy ways to add functionality or change the looks of a
             blag.
           </p>
-        </div>
-        <div className="future-content-item">
+        </FutureContentItem>
+        <FutureContentItem>
           <h2>Robust content management</h2>
           <p>
             Flexible content management enables users to easily move through
@@ -121,7 +125,7 @@ function SectionFuture() {
             categories, sections, format, or flow. With this functionality,
             you're in full control.
           </p>
-        </div>
+        </FutureContentItem>
       </div>
     </section>
   );
