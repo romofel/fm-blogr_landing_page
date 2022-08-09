@@ -137,8 +137,8 @@ function SectionState() {
   return (
     <section id="state-art">
       <div className="state-art-hero">
-        <img src={illustrationPhones} alt="phone illustration" />
-        <img src={bgPatternCircles} alt="pattern circles" />
+        <img className="state-art-hero-fg" src={illustrationPhones} alt="phone illustration" />
+        <img className="state-art-hero-bg" src={bgPatternCircles} alt="pattern circles" />
       </div>
       <h1>State of the Art Infrastructure</h1>
       <p>
