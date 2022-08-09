@@ -52,7 +52,7 @@ function HoverSubMenu({ items }) {
   return (
     <ul className="hover-sub-menu">
       {items.map((item) => (
-        <li>{item}</li>
+        <li className="hover-sub-menu-item">{item}</li>
       ))}
     </ul>
   );
