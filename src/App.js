@@ -8,15 +8,22 @@ function HoverMenu() {
     <div class="hover-menu">
       <ul>
         <li>
-          <span>Product</span> <img src={iconArrowDark} />
+          <span>Product</span> <img src={iconArrowDark} alt="down arrow" />
         </li>
         <li>
-          <span>Company</span> <img src={iconArrowDark} />
+          <span>Company</span> <img src={iconArrowDark} alt="down arrow" />
         </li>
         <li>
-          <span>Connect</span> <img src={iconArrowDark} />
+          <span>Connect</span> <img src={iconArrowDark} alt="down arrow" />
         </li>
       </ul>
+
+      <div className="separator"></div>
+
+      <div className="hover-ctas">
+        <button>Login</button>
+        <button>Sign Up</button>
+      </div>
     </div>
   );
 }
