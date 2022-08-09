@@ -160,8 +160,9 @@ nav {
   color: #1f3e5a;
 }
 
-.hover-menu ul {
+.hover-menu > ul {
   width: 100%;
+  margin-bottom: 2rem;
 }
 
 .hover-menu-item {
