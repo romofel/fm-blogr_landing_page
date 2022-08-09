@@ -327,6 +327,10 @@ section#future {
   margin-top: 2.875rem;
 }
 
+.future-content-item:not(:first-of-type) {
+  margin-top: 2.5rem;
+}
+
 .future-content-item > h2 {
   font-family: 'Overpass', sans-serif;
   font-weight: 600;
