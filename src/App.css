@@ -352,7 +352,8 @@ section#future {
 }
 
 section#state-art {
-  margin-top: 6.25rem;
+  /* margin-top: 6.25rem; */
+  margin-top: 12rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   padding-bottom: 5.8125rem;
@@ -371,6 +372,7 @@ section#state-art {
 
 .state-art-hero-fg {
   width: 100%;
+  margin-top: -8rem;
 }
 
 .state-art-hero-bg {
