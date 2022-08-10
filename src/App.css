@@ -429,3 +429,9 @@ section#state-art {
   color: #4c5862;
   text-align: center;
 }
+
+footer {
+  background-color: #24242c;
+  border-top-right-radius: 100px;
+  padding: 4.75rem 1.5rem;
+}
