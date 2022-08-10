@@ -414,4 +414,14 @@ section#state-art {
   font-weight: 600;
   color: #1f3e5a;
   line-height: 1.14285714;
+  text-align: center;
+}
+
+.features-content {
+  font-family: 'Overpass', sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.75;
+  color: #4c5862;
+  text-align: center;
 }
