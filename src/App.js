@@ -163,13 +163,13 @@ function SectionState() {
 function SectionFeatures() {
   return (
     <section id="features">
-      <div>
+      <div className="features-hero">
         <img src={illustrationLaptopMobile} alt="laptop illustration" />
       </div>
       <div>
         <div>
-          <h2>Free, open, simple</h2>
-          <p>
+          <h2 className="features-heading">Free, open, simple</h2>
+          <p className="features-content">
             Blogr is a free and open source application backed by a large
             community of helpful developers. It supports features such as code
             syntax highlighting, RSS feeds, social media integration,
