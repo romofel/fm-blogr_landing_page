@@ -384,7 +384,7 @@ section#state-art {
   font-size: 2.5rem;
   color: white;
   text-align: center;
-  line-height: 1.5;
+  line-height: 1.3;
 }
 
 .state-art-content {
@@ -393,4 +393,7 @@ section#state-art {
   font-size: 1rem;
   line-height: 1.75;
   color: white;
+  text-align: center;
+  width: 327px;
+  margin-top: 1rem;
 }
