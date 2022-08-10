@@ -383,3 +383,11 @@ section#state-art {
   text-align: center;
   line-height: 1.5;
 }
+
+.state-art-content {
+  font-family: 'Overpass', sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.75;
+  color: white;
+}
