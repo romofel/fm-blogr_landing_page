@@ -167,7 +167,7 @@ function SectionFeatures() {
         <img src={illustrationLaptopMobile} alt="laptop illustration" />
       </div>
       <div>
-        <div>
+        <div className="features-item">
           <h2 className="features-heading">Free, open, simple</h2>
           <p className="features-content">
             Blogr is a free and open source application backed by a large
@@ -178,9 +178,9 @@ function SectionFeatures() {
             learn.
           </p>
         </div>
-        <div>
-          <h2>Powerful tooling</h2>
-          <p>
+        <div className="features-item">
+          <h2 className="features-heading">Powerful tooling</h2>
+          <p className="features-content">
             Batteries included. We build a simple and straightforward CLI tool
             that makes customization and deployment a breeze, but capable of
             producing even the most complicated sites.
@@ -194,7 +194,7 @@ function SectionFeatures() {
 function Footer() {
   return (
     <footer>
-      <div>Blogr</div>
+      <img className="footer-logo" src={logo} alt="footer logo" />
       <ul>
         <li>
           <span>Product</span>
