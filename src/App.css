@@ -408,6 +408,10 @@ section#state-art {
   width: 100%;
 }
 
+.features-item:not(:first-of-type) {
+  margin-top: 2.5rem;
+}
+
 .features-heading {
   font-family: "Overpass", sans-serif;
   font-size: 1.75rem;
