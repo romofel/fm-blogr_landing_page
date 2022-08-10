@@ -5,6 +5,7 @@ import logo from "./assets/logo.svg";
 import iconArrowDark from "./assets/icon-arrow-dark.svg";
 import illustrationEditorMobile from "./assets/illustration-editor-mobile.svg";
 import illustrationPhones from "./assets/illustration-phones.svg";
+import illustrationLaptopMobile from './assets/illustration-laptop-mobile.svg';
 import bgPatternCircles from "./assets/bg-pattern-circles.svg";
 
 function HoverMenuItem({ title, children }) {
@@ -155,7 +156,7 @@ function SectionFeatures() {
   return (
     <section id="features">
       <div>
-        <img src="" alt="" />
+        <img src={illustrationLaptopMobile} alt="laptop illustration" />
       </div>
       <div>
         <div>
