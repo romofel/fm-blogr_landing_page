@@ -399,3 +399,11 @@ section#state-art {
   width: 327px;
   margin-top: 1rem;
 }
+
+.features-hero {
+  margin-top: 5rem;
+}
+
+.features-hero > img {
+  width: 100%;
+}
