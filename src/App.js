@@ -5,7 +5,7 @@ import logo from "./assets/logo.svg";
 import iconArrowDark from "./assets/icon-arrow-dark.svg";
 import illustrationEditorMobile from "./assets/illustration-editor-mobile.svg";
 import illustrationPhones from "./assets/illustration-phones.svg";
-import illustrationLaptopMobile from './assets/illustration-laptop-mobile.svg';
+import illustrationLaptopMobile from "./assets/illustration-laptop-mobile.svg";
 import bgPatternCircles from "./assets/bg-pattern-circles.svg";
 
 function HoverMenuItem({ title, children }) {
@@ -138,8 +138,16 @@ function SectionState() {
   return (
     <section id="state-art">
       <div className="state-art-hero">
-        <img className="state-art-hero-fg" src={illustrationPhones} alt="phone illustration" />
-        <img className="state-art-hero-bg" src={bgPatternCircles} alt="pattern circles" />
+        <img
+          className="state-art-hero-fg"
+          src={illustrationPhones}
+          alt="phone illustration"
+        />
+        <img
+          className="state-art-hero-bg"
+          src={bgPatternCircles}
+          alt="pattern circles"
+        />
       </div>
       <h1 className="state-art-heading">State of the Art Infrastructure</h1>
       <p className="state-art-content">
