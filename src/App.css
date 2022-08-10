@@ -353,6 +353,8 @@ section#future {
 
 section#state-art {
   margin-top: 6.25rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
   padding-bottom: 5.8125rem;
   background-image: linear-gradient(
     to right bottom,
