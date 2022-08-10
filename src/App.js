@@ -195,10 +195,10 @@ function Footer() {
   return (
     <footer>
       <img className="footer-logo" src={logo} alt="footer logo" />
-      <ul>
+      <ul className="footer-list">
         <li>
           <span>Product</span>
-          <ul>
+          <ul className="footer-inner-list">
             <li>Overview</li>
             <li>Pricing</li>
             <li>Marketplace</li>
@@ -208,7 +208,7 @@ function Footer() {
         </li>
         <li>
           <span>Company</span>
-          <ul>
+          <ul className="footer-inner-list">
             <li>About</li>
             <li>Team</li>
             <li>Blog</li>
@@ -217,7 +217,7 @@ function Footer() {
         </li>
         <li>
           <span>Connect</span>
-          <ul>
+          <ul className="footer-inner-list">
             <li>Contact</li>
             <li>Newsletter</li>
             <li>LinkedIn</li>
