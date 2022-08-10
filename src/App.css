@@ -381,7 +381,7 @@ section#state-art {
 }
 
 .state-art-heading {
-  font-family: 'Overpass', sans-serif;
+  font-family: "Overpass", sans-serif;
   font-weight: 600;
   font-size: 2.5rem;
   color: white;
@@ -390,7 +390,7 @@ section#state-art {
 }
 
 .state-art-content {
-  font-family: 'Overpass', sans-serif;
+  font-family: "Overpass", sans-serif;
   font-weight: 300;
   font-size: 1rem;
   line-height: 1.75;
@@ -406,4 +406,12 @@ section#state-art {
 
 .features-hero > img {
   width: 100%;
+}
+
+.features-heading {
+  font-family: "Overpass", sans-serif;
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: #1f3e5a;
+  line-height: 1.14285714;
 }
